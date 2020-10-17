@@ -21,6 +21,9 @@
             color: white;
             text-align: center;
         }
+        .float.img {
+            float: left;
+        }
     </style>
 </head>
 
@@ -74,30 +77,41 @@
     </div>
 
     <div>
-        <h1>About Me</h1>
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <section class="text-primary">
+                        <h1>About Me</h1>
+                    </section>
+                    <div class="card mb-3" style="max-width: 540px;">
+                        <div class="row no-gutters">
+                            <div class="col-md-4">
+                                <img src="https://www.w3schools.com/w3images/mac.jpg" class="card-img" alt="Placeholder" class="float-img">
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <h5 class="card-title">About Me</h5>
+                                    <p class="card-text">My name is Seth Miller and welcome to my webpage. My entire
+                                        career has been in aerospace and defense. I manage multi-million-dollar
+                                        subcontracts to various companies that provide products to help achieve the end
+                                        goal for the customer.</p>
+                                    <p class="card-text">I have always wanted to get into coding and recently I was
+                                        fortunate enough to meet about a dozen hackers who started their own companies.
+                                        They now support various elements of cybersecurity for a billion-dollar program
+                                        I am involved in.</p>
+                                    <p class="card-text">Originally after pondering the cybersecurity bootcamp, I chose
+                                        the coding bootcamp so I can learn the fundamentals of full stack web
+                                        development. I am excited to share my learning progress and upcoming additions
+                                        to my portfolio. You can contact me via E-mail or social media listed in the
+                                        contact me section.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-6">
+                    </div>
+                </div>
 
-        <div class="card" style="width: 18rem;">
-            <img src="https://www.w3schools.com/w3images/mac.jpg" class="card-img-top" alt="...">
-            <div class="card-body">
-                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum arcu lacus,
-                    venenatis non est quis, egestas auctor ante. Vivamus scelerisque ligula sit amet finibus efficitur.
-                    Vestibulum eu porttitor dui, a dapibus velit. Duis vitae mollis dolor. Donec elementum blandit eros
-                    sit amet tempor. Donec vestibulum lobortis orci, facilisis viverra ante rhoncus eu. Maecenas viverra
-                    tincidunt ex, eu rhoncus ante posuere non. Maecenas et tincidunt diam, non faucibus sem. Sed
-                    condimentum eros ex, vel imperdiet urna fermentum quis. Aenean luctus lacinia auctor. Nunc fringilla
-                    orci eget magna lobortis iaculis. 
-                    
-                    In dignissim porttitor odio, id tincidunt sem posuere in. Quisque fringilla et orci vel porta.
-                    Suspendisse tincidunt finibus tortor. Aenean mollis, nisi non pellentesque ornare, eros metus
-                    fringilla sapien, quis varius lectus nibh at ante. Quisque eu ipsum sit amet quam placerat aliquet
-                    et sit amet diam. Ut fermentum in lorem ut porttitor. Vestibulum eleifend purus ut leo tincidunt,
-                    nec lobortis mi euismod. Quisque non ex ac mauris venenatis ullamcorper id non sapien. Nunc viverra
-                    egestas enim sed rutrum. Sed rutrum posuere orci, tempor convallis velit dignissim in. Nulla vel
-                    tortor feugiat, dapibus mauris sed, lobortis risus. Interdum et malesuada fames ac ante ipsum primis
-                    in faucibus. Nullam et mi eu ipsum ultrices porttitor. Duis pulvinar euismod purus ac euismod.</p>
-            </div>
-        </div>
-    </div>
 
 
 
@@ -106,16 +120,15 @@
 
 
 
-
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-        crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
-        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
-        crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js"
-        integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s"
-        crossorigin="anonymous"></script>
+                <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+                    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+                    crossorigin="anonymous"></script>
+                <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+                    integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+                    crossorigin="anonymous"></script>
+                <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js"
+                    integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s"
+                    crossorigin="anonymous"></script>
 </body>
 
 </html>
